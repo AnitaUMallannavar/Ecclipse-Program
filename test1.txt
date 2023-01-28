@@ -1,0 +1,54 @@
+1.java is comand used to execution or running of progams.
+javac also a comand used to campilation of java program.
+
+2.JDK:it stands as java devolopment kit
+it exist Physically.
+it provid run time evironment.
+JDK=jvm+Librari Tools
+
+JRE: it stand for java run time environment.
+it exist Physically.
+it provide run time environment.
+
+JVM: java virtuval machine.
+it not exist Physically.
+
+4.class is a blueprint to create an object.
+object is real wold entity,it will have behavior & perfoms some task.
+
+5..java is Source code(without compailation).
+.class is byte code (after compilation).
+
+6. method signature
+    access specifier non access specifier return type main(parameters) class ,class name
+	
+7.java is a highlevel object oriented programming language
+
+8.java IDE's=Integrated Devolopment Environment
+
+9.variable are used to memory allocation in program.
+variable means the value can be change during execution of program.
+types of veriable :1.local veriable
+                    2.Gobal veriable
+					
+10.java keywords
+int
+char
+float
+double
+if
+else
+for
+break
+switch
+boolean
+
+
+11.class veriable are access only within class & intialice within the class.
+
+12.data types are used to allocation of memory
+types are 2
+1.primitive DT
+2.nonprimitive DT					
+
+ 	
