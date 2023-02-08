@@ -6,18 +6,20 @@ public class Logic3 {
 		int i, j;
 		int n = 10;
 		int m = 10;
-		int count=1;
+
 		for (i = 1; i <= n; i++) {
 			for (j = 1; j <= m; j++) {
-				if (i == 1 || i == n || j == 0 || j == m ) {
+				if (i == 1 && j == 1 || i == 1 && j == 2 || i == 2 & j == 1 || i == 2 && j == 2) {
 
-					System.out.print("#");
+					System.out.print("");
+				} else {
+					System.out.print("*");
 				}
 			}
 
 			System.out.println();
 		}
-		count+=1;
+
 	}
 
 }
