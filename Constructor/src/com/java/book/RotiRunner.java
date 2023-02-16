@@ -100,6 +100,7 @@ public class RotiRunner {
          
          Roti r2=new OnionRagiRoti();
          String shape33=r2.getShape();
+         System.out.println(shape33);
          if(r2 instanceof OnionRagiRoti) {
         	 OnionRagiRoti onionRagiRoti1=(OnionRagiRoti) r2;
         	 String calories33=onionRagiRoti1.getCalories();
@@ -116,7 +117,19 @@ public class RotiRunner {
  		System.out.println("shape:"+shape44);
  		String calories44=rr3.getCalories();
  		System.out.println("calories:"+calories44);
-         
-         
+ 		
+ 		
+ 		Roti r=new RagiRoti();
+ 		String shape55=r.getShape();
+ 		System.out.println(shape55);
+ 		if(r instanceof RagiRoti) {
+ 			RagiRoti ragiroti=(RagiRoti) r;
+ 			String calories55=ragiroti.getCalories();
+ 			System.out.println(calories55);
+ 		}else {
+ 			System.err.println("calories is not poiting Roti");
+ 		}
+         System.out.println("           ");
+          
 	}
 }
